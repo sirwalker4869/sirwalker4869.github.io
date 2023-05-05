@@ -1,0 +1,63 @@
+.hero {
+  height: 500px;
+  background-image: url(img/laptop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.atas-foto {
+  height: 500px;
+  background-color: black;
+  opacity: 0.8;
+  width: 100vw;
+}
+
+.judul {
+  margin-top: 100px;
+}
+
+.our {
+  border: 2px solid white;
+  opacity: 1;
+}
+
+.services {
+  background-color: rgb(162, 243, 162);
+  height: 300px;
+}
+
+.gambar-satu {
+  background-color: pink;
+}
+
+.gambar-dua {
+  background-color: lightskyblue;
+}
+.gambar-tiga {
+  background-color: lightsalmon;
+}
+
+.footer {
+  height: 200px;
+  background-color: black;
+  margin-top: 100px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    height: 300px;
+  }
+  .kolom-dua,
+  .kolom-tiga {
+    margin-top: 30px;
+  }
+  .sosmed {
+    text-align: right;
+  }
+}
