@@ -1,0 +1,5 @@
+Design source : https://youtu.be/IXucQAEkIMo?si=hROgs1cPo3_nuHaV
+icon : https://boxicons.com/
+fonts : https://fonts.google.com
+image : https://www.pngwing.com/en/search?q=clash+Of+Clans+Archer
+animation : https://scrollrevealjs.org/
