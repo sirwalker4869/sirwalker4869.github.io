@@ -1,0 +1,200 @@
+.head {
+  height: 600px;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Mengubah latar belakang menjadi ungu saat dihover */
+.navbar-nav .nav-item:hover {
+  background-color: purple;
+  border-radius: 30px;
+  transition: all 0.1s ease-in; /* Warna latar belakang ungu saat dihover */
+}
+
+/* Mengubah warna teks menjadi putih saat elemen dihover */
+.navbar-nav .nav-item:hover .nav-link {
+  color: white; /* Warna teks putih saat dihover */
+}
+
+.navbar-nav .active:hover {
+  background-color: purple;
+  border-radius: 30px;
+}
+
+.navbar-nav .active:hover .nav-link {
+  color: white; /* Warna teks putih saat dihover */
+}
+
+.hero-desc {
+  font-size: 60px;
+}
+
+.tombol {
+  height: 50px;
+  width: 120px;
+  background-color: purple;
+  border-radius: 30px;
+  color: white;
+  border: none;
+}
+
+.tombol:hover {
+  background-color: rgb(78, 3, 78);
+  color: white;
+  transition: all 0.1s ease-in;
+}
+
+.service .our-service i {
+  font-size: 45px;
+  color: purple;
+}
+
+.service-card i {
+  font-size: 50px;
+}
+
+.service .kartu i {
+  font-size: 50px;
+}
+.service .hero-desc0 .card:hover {
+  border-top: 20px solid purple;
+}
+.service .hero-desc0 .card {
+  border-top: 20px solid transparent;
+  transition: all 0.2s ease-in;
+}
+
+.read-more {
+  height: 50px;
+  width: 120px;
+  background-color: purple;
+  border-radius: 30px;
+  color: white;
+  border: none;
+}
+
+.read-more:hover {
+  background-color: rgb(78, 3, 78);
+  color: white;
+  transition: all 0.1s ease-in;
+}
+
+.about-desc {
+  font-size: 60px;
+}
+
+.about {
+  height: 530px;
+}
+
+.blog h1 i {
+  color: purple;
+  margin-left: 10px;
+}
+
+.contact {
+  margin-top: 100px;
+}
+
+.contact form input {
+  margin: 60px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.send {
+  height: 50px;
+  width: 120px;
+  background-color: purple;
+
+  color: white;
+  border: none;
+}
+
+.footer {
+  height: auto;
+  background-color: rgb(1, 1, 80);
+}
+
+.footer h4 {
+  color: white;
+  cursor: pointer;
+}
+
+.footer .subscribe {
+  display: inline-block;
+  height: 50px;
+  width: 120px;
+  background-color: purple;
+  width: 100px;
+  color: white;
+  border: none;
+}
+
+.footer p {
+  display: inline;
+  font-size: 30px;
+  margin: 0 5px;
+}
+.footer i {
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+}
+.footer i:hover {
+  color: purple;
+  transition: all .2s ease-in;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav .nav-item .nav-link {
+    text-align: center;
+  }
+  .navbar-nav .nav-item:hover {
+    background-color: purple;
+    border-radius: 30px;
+    transition: all 0.1s ease-in; /* Warna latar belakang ungu saat dihover */
+  }
+
+  /* Mengubah warna teks menjadi putih saat elemen dihover */
+  .navbar-nav .nav-item:hover .nav-link {
+    color: white; /* Warna teks putih saat dihover */
+  }
+
+  .footer {
+    height: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .head {
+    height: auto;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-top: 30px;
+  }
+
+  .service .hero-desc0 {
+    margin-top: 20px;
+  }
+  .about {
+    height: 950px;
+  }
+
+  .blog .card {
+    margin-top: 15px;
+  }
+
+  .footer {
+    height: auto;
+  }
+}
