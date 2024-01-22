@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* header */
+
+header {
+  background-color: rgb(5, 5, 56);
+  height: 700px;
+}
+
+.navbar a {
+  color: white;
+  font-size: 18px;
+}
+.navbar a:hover {
+  color: white;
+}
+
+.navbar .navbar-toggler,
+.navbar .navbar-toggler span {
+  color: white;
+  background-color: white;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+/* hero */
+.hero {
+  color: white;
+}
+
+.hero-tombol {
+  border: none;
+  background-color: #00a9ff;
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.hero-tombol:hover {
+  border: 1px solid #00a9ff;
+  color: #00a9ff;
+  background-color: rgb(5, 5, 56);
+  transition: all 0.3s ease-in;
+}
+.hero-tombol2 {
+  border: none;
+  background-color: #e25e3e;
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+.hero-tombol2:hover {
+  border: 1px solid #e25e3e;
+  color: #e25e3e;
+  background-color: rgb(5, 5, 56);
+  transition: all 0.3s ease-in;
+}
+
+/* service */
+
+.html {
+  color: #c63d2f;
+  font-size: 70px;
+}
+.css {
+  color: #00a9ff;
+  font-size: 70px;
+}
+.js {
+  color: rgb(223, 223, 34);
+  font-size: 70px;
+}
+.bootstrap {
+  color: #563d7c;
+  font-size: 70px;
+}
+.git {
+  color: #f1502f;
+  font-size: 70px;
+}
+/* akhir service */
+
+/* about*/
+.about .about-desc {
+  color: gray;
+}
+.about-tombol {
+  border: none;
+  background-color: #e25e3e;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+}
+.about-tombol:hover {
+  border: 1px solid #e25e3e;
+  color: #e25e3e;
+  background-color: white;
+  transition: all 0.3s ease-in;
+}
+
+.about .about-img {
+  width: 100%;
+  height: auto;
+}
+/* akhir about */
+
+/* server */
+.server {
+  margin-top: 30px;
+  background-color: #11235a;
+  width: 100%;
+  height: 400px;
+  color: white;
+}
+
+.server-img {
+  width: 100;
+  height: 350px;
+}
+
+.server h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.server p {
+  text-align: justify;
+}
+
+.server-tombol {
+  border: none;
+  background-color: #e25e3e;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+}
+.server-tombol:hover {
+  border: 1px solid #e25e3e;
+  color: #e25e3e;
+  background-color: white;
+  transition: all 0.3s ease-in;
+}
+/* akhir server */
+
+/* pricing */
+.pricing-tombol {
+  border: none;
+  background-color: #e25e3e;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.pricing .huha:hover {
+  background-color: #00a9ff;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
+/* akhir pricing */
+
+/* form */
+.form {
+  background-color: #f0ece5;
+  margin-top: 30px;
+}
+.form-tombol {
+  border: none;
+  background-color: #e25e3e;
+  color: white;
+  width: 150px;
+  height: 40px;
+  margin: 0 450px;
+}
+.form-tombol:hover {
+  border: 1px solid #e25e3e;
+  color: #e25e3e;
+  background-color: white;
+  transition: all 0.3s ease-in;
+}
+
+/* akhir form */
+
+/* footer */
+.footer {
+  background-color: #11235a;
+  color: white;
+}
+
+.footer .icon a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.footer .link a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .link i {
+  color: #f1502f;
+}
+
+
+
+.subscribe-huha {
+  border: #c63d2f;
+}
+
+footer .tombol-sub {
+  border: none;
+  background-color: #e25e3e;
+  color: white;
+  width: 150px;
+  height: 40px;
+  
+}
+footer .tombol-sub:hover {
+  border: 1px solid #11235a;
+  color: #11235a;
+  background-color: white;
+  transition: all 0.3s ease-in;
+}
+/* akhir footer */
+
+@media (max-width: 992px) {
+  header {
+    height: auto;
+  }
+  .about .about-img {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .server-img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .server {
+    height: max-content;
+  }
+  .form-tombol {
+    margin: 0 100px;
+  }
+
+  .footer .link p {
+    text-align: left;
+  }
+}
