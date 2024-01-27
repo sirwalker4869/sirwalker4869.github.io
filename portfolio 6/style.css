@@ -1,0 +1,93 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.haikyuu {
+  background-image: url(img/background1.png);
+  height: 100vh;
+  width: 100vw;
+}
+
+.haikyuu nav li {
+  margin-right: 20px;
+}
+
+.haikyuu .judul {
+  font-size: 70px;
+}
+
+.haikyuu .hinata {
+  font-size: 35px;
+}
+
+.haikyuu .episode span {
+  font-size: 40px;
+}
+
+.haikyuu .kanan {
+  border-left: 3px solid white;
+}
+
+.haikyuu .resolusi {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  border: none;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  rotate: 0deg;
+  background-color: #9d9e95;
+  box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.9);
+  margin-right: 5px; /* Sesuaikan dengan kebutuhan Anda */
+}
+.haikyuu .resolusi1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  border: none;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  rotate: 0deg;
+  background-color: #f8fae5;
+  box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.9);
+  margin-right: 5px; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+.haikyuu .resolusi span {
+  text-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.9); /* Sesuaikan dengan kebutuhan Anda */
+}
+
+.haikyuu .download {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  margin-top: 30px;
+  border-radius: 30px;
+  height: 80px;
+  width: 250px;
+  box-shadow: 0 4px 4px 3px rgba(73, 71, 71, 0.9);
+}
+.haikyuu .download:hover {
+  font-family: "Poppins", sans-serif;
+  background-color: #ff9843;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  border-radius: 30px;
+  height: 80px;
+  width: 250px;
+  box-shadow: 0 4px 4px 3px rgba(73, 71, 71, 0.9);
+  transition: all 0.3s ease-in;
+}
+
+@media (max-width: 752px) {
+  .haikyuu {
+    background-image: url(img/bakcground-mobile.png);
+    background-position: center;
+    background-size: cover;
+    height: 1300px;
+    width: 100vw;
+  }
+
+  nav {
+    background-color: #ff9843;
+  }
+}
