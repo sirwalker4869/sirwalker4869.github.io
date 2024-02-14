@@ -1,0 +1,150 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.head {
+  width: auto;
+  height: fit-content;
+  background-image: url(img/background.jpg);
+}
+
+.head nav a.logo {
+  font-size: 40px;
+  color: red;
+}
+
+.head .container .wellcome {
+  color: red;
+}
+
+.head div.satu {
+  margin-top: 100px;
+}
+.head div.dua {
+  margin-top: -50px;
+}
+
+.head .order {
+  border: none;
+  background-color: red;
+  color: white;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+}
+.head .order:hover {
+  content: "huha";
+  border: none;
+  background-color: white;
+  color: red;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in;
+}
+
+.head nav li a.active {
+  border-bottom: 3px solid transparent;
+  transition: all 0.4s ease;
+}
+.head nav li a.active:hover {
+  border-bottom: 3px solid red;
+}
+
+/* card */
+.food-card .order {
+  border: none;
+  background-color: red;
+  color: white;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+}
+.food-card .order:hover {
+  content: "huha";
+  border: none;
+  background-color: white;
+  color: red;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in;
+}
+.food-card .kolom .card {
+  width: 17rem;
+}
+
+/* akhir card */
+
+/* order-now */
+.order-now {
+  height: fit-content;
+  width: auto;
+  background-image: url(img/gambar2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+.order-now i {
+  font-size: 40px;
+}
+
+/* akhir order-now */
+
+/* quote */
+.quote {
+  height: 300px;
+}
+.quote i {
+  font-size: 50px;
+}
+.quote .click-sushi {
+  border: none;
+  background-color: red;
+  color: white;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+}
+.click-sushi:hover {
+  content: "huha";
+  border: none;
+  background-color: white;
+  color: red;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in;
+}
+
+.quote .quote-gambar {
+  display: none;
+  text-align: center;
+}
+/* akhir quote */
+
+/* footer */
+.footer {
+  height: 100px;
+  width: auto;
+  background-color: black;
+}
+
+.footer h5 {
+  color: white;
+}
+/* akhir footer */
+/* responsive */
+
+@media (max-width: 992px) {
+  .food-card .kolom .card {
+    width: fit-content;
+  }
+  .header .container .dua img {
+    width: fit-content;
+  }
+  .quote {
+    height: 600px;
+  }
+}
