@@ -1,0 +1,81 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* header */
+header .hero-image {
+  height: 400px;
+  width: 100%;
+  background-color: #9bcf53;
+}
+/* header */
+
+/* navbar */
+
+.navbar-nav .nav-item:hover {
+  background-color: #9bcf53;
+  border-radius: 30px;
+  transition: all 0.1s ease-in;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: white;
+}
+
+/* akhir navbar */
+
+/* jadwal sholat */
+.jadwal-sholat h5 {
+  color: #c7c8cc;
+}
+
+.jadwal-sholat .card {
+  width: 10rem;
+}
+
+.jadwal-sholat .waktu-sholat {
+  color: green;
+}
+/* akhir jadwal sholat  */
+
+.banner {
+  height: 300px;
+  background-image: url(img/mosque.jpg);
+  color: #9bcf53;
+  margin-top: 100px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner .tombol-banner {
+  background-color: #9bcf53;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.1s ease-in;
+}
+
+.banner .tombol-banner:hover {
+  background-color: white;
+  color: #9bcf53;
+  border: 1px solid #9bcf53;
+}
+/* akhir banner */
+@media (max-width: 992px) {
+  header .hero-image {
+    height: max-content;
+  }
+  .navbar-nav .nav-item .nav-link {
+    text-align: center;
+  }
+
+  .jadwal-sholat .card {
+    width: 20rem;
+  }
+}
